@@ -28,6 +28,7 @@ angular.module('myappApp')
  */
     .constant('LANGUAGES', [
         'en', 'fr'
+        ,'ko'
         //JHipster will add new languages here
     ]
 );
