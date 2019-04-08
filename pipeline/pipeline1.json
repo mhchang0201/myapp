@@ -1,0 +1,94 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy Data1",
+				"type": "Copy",
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"typeProperties": {
+					"source": {
+						"type": "BlobSource",
+						"recursive": true
+					},
+					"sink": {
+						"type": "SqlSink",
+						"writeBatchSize": 10000
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"columnMappings": {
+							"Prop_0": "prop_0",
+							"Prop_1": "prop_1",
+							"Prop_2": "prop_2",
+							"Prop_3": "prop_3",
+							"Prop_4": "prop_4",
+							"Prop_5": "prop_5",
+							"Prop_6": "prop_6",
+							"Prop_7": "prop_7",
+							"Prop_8": "prop_8",
+							"Prop_9": "prop_9",
+							"Prop_10": "prop_10",
+							"Prop_11": "prop_11",
+							"Prop_12": "prop_12",
+							"Prop_13": "prop_13",
+							"Prop_14": "prop_14",
+							"Prop_15": "prop_15",
+							"Prop_16": "prop_16",
+							"Prop_17": "prop_17",
+							"Prop_18": "prop_18",
+							"Prop_19": "prop_19",
+							"Prop_20": "prop_20",
+							"Prop_21": "prop_21",
+							"Prop_22": "prop_22",
+							"Prop_23": "prop_23",
+							"Prop_24": "prop_24",
+							"Prop_25": "prop_25",
+							"Prop_26": "prop_26",
+							"Prop_27": "prop_27",
+							"Prop_28": "prop_28",
+							"Prop_29": "prop_29",
+							"Prop_30": "prop_30",
+							"Prop_31": "prop_31",
+							"Prop_32": "prop_32",
+							"Prop_33": "prop_33",
+							"Prop_34": "prop_34",
+							"Prop_35": "prop_35",
+							"Prop_36": "prop_36",
+							"Prop_37": "prop_37",
+							"Prop_38": "prop_38",
+							"Prop_39": "prop_39",
+							"Prop_40": "prop_40",
+							"Prop_41": "prop_41",
+							"Prop_42": "prop_42",
+							"Prop_43": "prop_43",
+							"Prop_44": "prop_44",
+							"Prop_45": "prop_45",
+							"Prop_46": "prop_46",
+							"Prop_47": "prop_47"
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "AzureBlob1",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "AzureSqlTable1",
+						"type": "DatasetReference"
+					}
+				]
+			}
+		]
+	}
+}

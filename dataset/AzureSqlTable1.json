@@ -1,0 +1,207 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlTable",
+		"structure": [
+			{
+				"name": "prop_0",
+				"type": "String"
+			},
+			{
+				"name": "prop_1",
+				"type": "String"
+			},
+			{
+				"name": "prop_2",
+				"type": "String"
+			},
+			{
+				"name": "prop_3",
+				"type": "String"
+			},
+			{
+				"name": "prop_4",
+				"type": "String"
+			},
+			{
+				"name": "prop_5",
+				"type": "String"
+			},
+			{
+				"name": "prop_6",
+				"type": "String"
+			},
+			{
+				"name": "prop_7",
+				"type": "String"
+			},
+			{
+				"name": "prop_8",
+				"type": "String"
+			},
+			{
+				"name": "prop_9",
+				"type": "String"
+			},
+			{
+				"name": "prop_10",
+				"type": "String"
+			},
+			{
+				"name": "prop_11",
+				"type": "String"
+			},
+			{
+				"name": "prop_12",
+				"type": "String"
+			},
+			{
+				"name": "prop_13",
+				"type": "String"
+			},
+			{
+				"name": "prop_14",
+				"type": "String"
+			},
+			{
+				"name": "prop_15",
+				"type": "String"
+			},
+			{
+				"name": "prop_16",
+				"type": "String"
+			},
+			{
+				"name": "prop_17",
+				"type": "String"
+			},
+			{
+				"name": "prop_18",
+				"type": "String"
+			},
+			{
+				"name": "prop_19",
+				"type": "String"
+			},
+			{
+				"name": "prop_20",
+				"type": "String"
+			},
+			{
+				"name": "prop_21",
+				"type": "String"
+			},
+			{
+				"name": "prop_22",
+				"type": "String"
+			},
+			{
+				"name": "prop_23",
+				"type": "String"
+			},
+			{
+				"name": "prop_24",
+				"type": "String"
+			},
+			{
+				"name": "prop_25",
+				"type": "String"
+			},
+			{
+				"name": "prop_26",
+				"type": "String"
+			},
+			{
+				"name": "prop_27",
+				"type": "String"
+			},
+			{
+				"name": "prop_28",
+				"type": "String"
+			},
+			{
+				"name": "prop_29",
+				"type": "String"
+			},
+			{
+				"name": "prop_30",
+				"type": "String"
+			},
+			{
+				"name": "prop_31",
+				"type": "String"
+			},
+			{
+				"name": "prop_32",
+				"type": "String"
+			},
+			{
+				"name": "prop_33",
+				"type": "String"
+			},
+			{
+				"name": "prop_34",
+				"type": "String"
+			},
+			{
+				"name": "prop_35",
+				"type": "String"
+			},
+			{
+				"name": "prop_36",
+				"type": "String"
+			},
+			{
+				"name": "prop_37",
+				"type": "String"
+			},
+			{
+				"name": "prop_38",
+				"type": "String"
+			},
+			{
+				"name": "prop_39",
+				"type": "String"
+			},
+			{
+				"name": "prop_40",
+				"type": "String"
+			},
+			{
+				"name": "prop_41",
+				"type": "String"
+			},
+			{
+				"name": "prop_42",
+				"type": "String"
+			},
+			{
+				"name": "prop_43",
+				"type": "String"
+			},
+			{
+				"name": "prop_44",
+				"type": "String"
+			},
+			{
+				"name": "prop_45",
+				"type": "String"
+			},
+			{
+				"name": "prop_46",
+				"type": "String"
+			},
+			{
+				"name": "prop_47",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[Table_1]"
+		}
+	}
+}
